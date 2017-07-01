@@ -3,6 +3,7 @@ body {
   margin: 0 auto;
   font-size: 20px;
   background: lightgrey;
+  justify-content: center;
   
 }
 img {
@@ -24,7 +25,7 @@ img {
   border-radius: 20px;
 
 }
-.contenedor {
+.container {
   margin: 0 auto;
   width: 100%;
   max-width: 1000px;
@@ -36,19 +37,23 @@ img {
 
 
 }
-.cajon1{
+.drawer1{
   margin: 0 auto;
   border: 2px solid grey;
   margin-bottom: 10px;
   text-align: center;
   width: 100%;
+  justify-content: center;
 
 
+}
+p, .drawer1 {
+  text-align: center;
 }
 
 
 @media screen and (max-widht:1024px) {
-  .contenedor {
+  .container {
     width: 100%;
     
     
@@ -58,10 +63,9 @@ img {
    
     
   }
-  .cajon1{
+  .drawer1{
     width: 100%;
-    text-align: center;
-    
+  
   
     
   }
@@ -70,13 +74,11 @@ img {
     
     
   }
-  p, strong .contenedor {
-  text-align: center;
-}
-}
+   }
+
 
 @media screen and (max-width:428px) {
-  .contenedor {
+  .container {
     width:100%;
     flex-wrap: wrap;
 
@@ -85,7 +87,7 @@ img {
     width:100%;
     flex-wrap: wrap;
   }
-  .cajon1{
+  .drawer1{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -97,7 +99,7 @@ img {
 }
 
 @media screen and (min-width:768px) {
-  .contenedor {
+  .container{
     width:100%;
     display: flex;
     flex-wrap: wrap;
@@ -105,10 +107,11 @@ img {
   .body {
     width:100%;
   }
-  .cajon1{
+  .drawer1{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   #Content {
     width: 100%;

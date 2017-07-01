@@ -1,10 +1,12 @@
-body {
-  background: cornflowerblue;
-}
-.contenedor {
-  background: cornflowerblue;
-}
+
 a, h4, p {
-   color:black;
+   color:white;
 }
+.copy {
+  color: #000;
+}
+p, blog {
+  color: #000;
+}
+
 
